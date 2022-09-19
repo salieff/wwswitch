@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+        <title>Wireless Wall Switch</title>
+        <link rel="shortcut icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💡</text></svg>" type="image/x-icon">
+        <script type="text/javascript" src="index.js"></script>
+    </head>
+
+    <body onload="BodyMain()">
+        <img class="button-img" id="left"  data-srcon="lamp-on.svg" data-srcoff="lamp-off.svg" width="45%" max-width="45%">
+        <img class="button-img" id="right" data-srcon="lamp-on.svg" data-srcoff="lamp-off.svg" width="45%" max-width="45%">
+        <br><br><br><br><br>
+
+        <details>
+            <summary style="font-size : 20pt">Debug panel</summary>
+                <button name="systeminfo" style="font-size : 20pt">System info</button>
+                <br><br>
+                <textarea id="debug-textarea" readonly rows="30" style="width: 90%; height: 50%; box-sizing: border-box;"></textarea>
+        </details>
+    </body>
+
+</html>
